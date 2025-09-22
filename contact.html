@@ -50,22 +50,26 @@
                     <form class="contact-form" id="contactForm">
                         <div class="form-group">
                             <div class="input-group">
-                                <input type="text" id="firstName" placeholder="First Name" name="firstName" required>
+                                <input type="text" id="firstName" name="firstName" required>
+                                <label for="firstName">First Name *</label>
                                 <span class="error-message" id="firstNameError"></span>
                             </div>
                             <div class="input-group">
-                                <input type="text" id="lastName" placeholder="Last Name" name="lastName" required>
+                                <input type="text" id="lastName" name="lastName" required>
+                                <label for="lastName">Last Name *</label>
                                 <span class="error-message" id="lastNameError"></span>
                             </div>
                         </div>
                         
                         <div class="input-group">
-                            <input type="email" id="email" placeholder="Email Address" name="email" required>
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address *</label>
                             <span class="error-message" id="emailError"></span>
                         </div>
                         
                         <div class="input-group">
-                            <input type="tel" id="phone" placeholder="Phone Number" name="phone" required>
+                            <input type="tel" id="phone" name="phone" required>
+                            <label for="phone">Phone Number *</label>
                             <span class="error-message" id="phoneError"></span>
                         </div>
                         
@@ -84,10 +88,12 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <input type="date" id="eventDate" name="eventDate" required>
+                                <label for="eventDate">Preferred Event Date *</label>
                                 <span class="error-message" id="eventDateError"></span>
                             </div>
                             <div class="input-group">
-                                <input type="number" id="guestCount" placeholder="Expected Guest Count" name="guestCount" min="1" max="10000" required>
+                                <input type="number" id="guestCount" name="guestCount" min="1" max="10000" required>
+                                <label for="guestCount">Expected Guest Count *</label>
                                 <span class="error-message" id="guestCountError"></span>
                             </div>
                         </div>
@@ -105,7 +111,8 @@
                         </div>
                         
                         <div class="input-group">
-                            <textarea id="message" name="message" placeholder="Tell us about your event vision" rows="5" required></textarea>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Tell us about your event vision *</label>
                             <span class="error-message" id="messageError"></span>
                         </div>
                         
