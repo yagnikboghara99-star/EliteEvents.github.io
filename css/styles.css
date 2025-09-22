@@ -583,6 +583,8 @@ section {
     margin-top: 3rem;
 }
 
+
+
 /* Testimonials */
 .testimonials {
     background: linear-gradient(135deg, #000000 0%, #000000 100%);
@@ -875,6 +877,44 @@ section {
 .service-packages {
     background-color: #010101;
     padding: 5rem 0;
+}
+
+@media (max-width: 768px) {
+    .service-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .service-detail.reverse .service-content {
+        grid-template-areas: unset;
+    }
+
+    .service-detail.reverse .service-text,
+    .service-detail.reverse .service-image {
+        grid-area: unset;
+    }
+
+    .service-text {
+        text-align: left;
+    }
+
+    .service-text ul {
+        margin: 1.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-detailed {
+        padding: 3rem 1rem;
+    }
+
+    .service-detail {
+        margin-bottom: 3rem;
+    }
+
+    .service-text li {
+        font-size: 0.9rem;
+    }
 }
 
 .packages-grid {

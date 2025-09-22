@@ -50,32 +50,27 @@
                     <form class="contact-form" id="contactForm">
                         <div class="form-group">
                             <div class="input-group">
-                                <input type="text" id="firstName" name="firstName" required>
-                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" placeholder="First Name" name="firstName" required>
                                 <span class="error-message" id="firstNameError"></span>
                             </div>
                             <div class="input-group">
-                                <input type="text" id="lastName" name="lastName" required>
-                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" placeholder="Last Name" name="lastName" required>
                                 <span class="error-message" id="lastNameError"></span>
                             </div>
                         </div>
                         
                         <div class="input-group">
-                            <input type="email" id="email" name="email" required>
-                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" placeholder="Email Address" name="email" required>
                             <span class="error-message" id="emailError"></span>
                         </div>
                         
                         <div class="input-group">
-                            <input type="tel" id="phone" name="phone" required>
-                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" placeholder="Phone Number" name="phone" required>
                             <span class="error-message" id="phoneError"></span>
                         </div>
                         
                         <div class="input-group">
                             <select id="eventType" name="eventType" required>
-                                <option value="">Select Event Type *</option>
                                 <option value="corporate">Corporate Event</option>
                                 <option value="wedding">Wedding</option>
                                 <option value="social">Social Event</option>
@@ -87,20 +82,17 @@
                         
                         <div class="form-group">
                             <div class="input-group">
-                                <input type="date" id="eventDate" name="eventDate" required>
-                                <label for="eventDate">Preferred Event Date *</label>
+                                <input type="date" id="eventDate" placeholder="Preferred Event Date" name="eventDate" required>
                                 <span class="error-message" id="eventDateError"></span>
                             </div>
                             <div class="input-group">
-                                <input type="number" id="guestCount" name="guestCount" min="1" max="10000" required>
-                                <label for="guestCount">Expected Guest Count *</label>
+                                <input type="number" id="guestCount" placeholder="Expected Guest Count" name="guestCount" min="1" max="10000" required>
                                 <span class="error-message" id="guestCountError"></span>
                             </div>
                         </div>
                         
                         <div class="input-group">
                             <select id="budget" name="budget" required>
-                                <option value="">Estimated Budget *</option>
                                 <option value="under-10k">Under $10,000</option>
                                 <option value="10k-25k">$10,000 - $25,000</option>
                                 <option value="25k-50k">$25,000 - $50,000</option>
@@ -111,8 +103,7 @@
                         </div>
                         
                         <div class="input-group">
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                            <label for="message">Tell us about your event vision *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your event vision" rows="5" required></textarea>
                             <span class="error-message" id="messageError"></span>
                         </div>
                         
